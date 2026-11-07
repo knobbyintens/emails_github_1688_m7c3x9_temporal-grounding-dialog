@@ -1,0 +1,13 @@
+batch_size: 16
+learning_rate: 0.0003
+epochs: 12
+train_split: data/processed/train.jsonl
+val_split: data/processed/val.jsonl
+model:
+  text_dim: 768
+  vision_dim: 512
+  hidden_dim: 512
+  num_heads: 8
+  num_layers: 4
+  dropout: 0.1
+  max_turns: 24
